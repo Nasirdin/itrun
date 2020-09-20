@@ -1,0 +1,31 @@
+.header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-bottom: 1px solid #a1a1a1;
+  .container{
+    .nav{
+      padding: 40px 0;
+      display: flex;
+      justify-content: flex-end;
+      &__link{
+        color: #fff;
+        margin-left: 40px;
+        position: relative;
+        transition: .5s;
+        &:hover{
+          &:before{
+            position: absolute;
+            content: '';
+            width: calc(110% + 40px);
+            height: 2px;
+            background-color: #fff;
+            bottom: -40px;
+            left: -20px;
+          }
+        }
+      }
+    }
+  }
+}

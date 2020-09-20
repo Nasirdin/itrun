@@ -1,0 +1,22 @@
+.home{
+  background: url("../img/bg/Rectangle.png") center/cover;
+  padding: 285px 0 335px;
+  text-align: center;
+  height: 100vh;
+  &__block{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 830px;
+  }
+  &__title{
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  &__subtitle{
+    font-size: 48px;
+    font-weight: 800;
+  }
+}

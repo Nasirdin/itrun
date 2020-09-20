@@ -1,0 +1,60 @@
+.video{
+  padding: 70px 0 0 0;
+  position: relative;
+  .container{
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  &:before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    height: 570px;
+    width: 100%;
+    background: #767676 url("../img/video/Rectangle.png") center/cover;
+    top: 0;
+    left: 0;
+
+  }
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 70px;
+  }
+  .video-box{
+    position: relative;
+    margin: 0 auto;
+    max-width: 970px;
+    height: 430px;
+    display: flex;
+    background: url("../img/video/Rectangle 2.png") center/cover;
+    justify-content: center;
+    align-items: center;
+    a{
+      padding: 20px 40px;
+      -webkit-border-radius: 200px;
+      -moz-border-radius: 200px;
+      border-radius: 200px;
+      border: 1px solid #fff;
+      color: #fff;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      img{
+        margin-right: 20px;
+      }
+    }
+  }
+}
