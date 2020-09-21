@@ -594,7 +594,7 @@ ul, li {
 }
 @media (max-width: 480px) {
   .home{
-    padding-top-170px
+    padding-top: 170px;
   }
   .home__subtitle{
     font-size: 40px;
